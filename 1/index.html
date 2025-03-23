@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Incluimos Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <style>
+        #map { height: 400px; }
+        body { padding: 0; margin: 0; }
+    </style>
+
+</head>
+<body>
+    <div id="map"></div>
+
+    <!-- Incluimos Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Inicializamos el mapa
+        const map = L.map('map').setView([-16.495612, -68.133554], 13);
+
+        // Añadimos la capa de OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Añadimos un marcador
+        L.marker([-16.495612, -68.133554])
+            .addTo(map)
+            .bindPopup('¡Hola desde Bolivia!<br>Mi primer marcador con Leaflet.')
+            .openPopup();
+
+    </script>
+
+</body>
+</html>
