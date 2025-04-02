@@ -1,0 +1,89 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "El Carmen"
+        },
+        "geometry": {
+          "coordinates": [
+            -68.21452167509075,
+            -16.52382307832255
+          ],
+          "type": "Point"
+        },
+        "id": 0
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "La Ollita"
+        },
+        "geometry": {
+          "coordinates": [
+            -68.21368472641961,
+            -16.53355230258812
+          ],
+          "type": "Point"
+        },
+        "id": 1
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Palacio"
+        },
+        "geometry": {
+          "coordinates": [
+            -68.18467692831935,
+            -16.52790834176011
+          ],
+          "type": "Point"
+        },
+        "id": 2
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "chuarrasco"
+        },
+        "geometry": {
+          "coordinates": [
+            -68.1801796741564,
+            -16.523499715621384
+          ],
+          "type": "Point"
+        },
+        "id": 3
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Mios"
+        },
+        "geometry": {
+          "coordinates": [
+            -68.15490038160317,
+            -16.5374195251069
+          ],
+          "type": "Point"
+        },
+        "id": 4
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Max"
+        },
+        "geometry": {
+          "coordinates": [
+            -68.13919475880571,
+            -16.53251648770045
+          ],
+          "type": "Point"
+        },
+        "id": 5
+      }
+    ]
+  }
