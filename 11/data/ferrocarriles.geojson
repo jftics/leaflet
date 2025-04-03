@@ -1,0 +1,38 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Línea La Paz - Oruro",
+          "estado": "operativo",
+          "longitud": 53.8
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-68.14, -16.49],
+            [-68.18, -16.51],
+            [-68.22, -16.53],
+            [-68.26, -16.56]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Línea La Paz - Viacha",
+          "estado": "parcial",
+          "longitud": 18.3
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-68.14, -16.49],
+            [-68.17, -16.53],
+            [-68.25, -16.65]
+          ]
+        }
+      }
+    ]
+  }
