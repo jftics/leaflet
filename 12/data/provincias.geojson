@@ -1,0 +1,62 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Murillo",
+          "poblacion": 1800000,
+          "area_km2": 133985,
+          "capital": "La Paz"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-68.2, -16.4],
+            [-68.0, -16.4],
+            [-68.0, -16.6],
+            [-68.2, -16.6],
+            [-68.2, -16.4]
+          ]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ingavi",
+          "poblacion": 95000,
+          "area_km2": 13395,
+          "capital": "Viacha"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-68.3, -16.5],
+            [-68.2, -16.5],
+            [-68.2, -16.7],
+            [-68.3, -16.7],
+            [-68.3, -16.5]
+          ]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Los Andes",
+          "poblacion": 70000,
+          "area_km2": 1339,
+          "capital": "Pucarani"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-68.1, -16.3],
+            [-67.9, -16.3],
+            [-67.9, -16.5],
+            [-68.1, -16.5],
+            [-68.1, -16.3]
+          ]]
+        }
+      }
+    ]
+  }
