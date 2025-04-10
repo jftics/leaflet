@@ -1,0 +1,24 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Reserva Lago Titicaca",
+          "tipo": "lacustre",
+          "extension": "8400 hectáreas",
+          "area_km2": 8400
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-69.0, -16.2],
+            [-68.8, -16.2],
+            [-68.8, -16.0],
+            [-69.0, -16.0],
+            [-69.0, -16.2]
+          ]]
+        }
+      }
+    ]
+  }
