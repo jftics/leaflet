@@ -1,0 +1,62 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque Urbano Central",
+          "tipo": "urbano",
+          "extension": "24 hectáreas",
+          "area_km2": 18958
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-68.125, -16.495],
+            [-68.122, -16.495],
+            [-68.122, -16.498],
+            [-68.125, -16.498],
+            [-68.125, -16.495]
+          ]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Valle de la Luna",
+          "tipo": "natural",
+          "extension": "130 hectáreas",
+          "area_km2": 13000
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-68.08, -16.55],
+            [-68.07, -16.55],
+            [-68.07, -16.56],
+            [-68.08, -16.56],
+            [-68.08, -16.55]
+          ]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Parque Nacional Mallasa",
+          "tipo": "nacional",
+          "extension": "450 hectáreas",
+          "area_km2": 4500
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-68.1, -16.57],
+            [-68.07, -16.57],
+            [-68.07, -16.6],
+            [-68.1, -16.6],
+            [-68.1, -16.57]
+          ]]
+        }
+      }
+    ]
+  }
