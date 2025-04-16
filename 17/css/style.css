@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.sidebar-content {
+  padding: 10px;
+}
+
+
+/* Fondo general del sidebar */
+.leaflet-sidebar {
+  background-color: #1a1a1a; /* fondo oscuro elegante */
+  font-family: 'Roboto', sans-serif;
+  color: #e0e0e0;
+  box-shadow: 4px 0 15px rgba(0, 0, 0, 0.5);
+  border-right: 1px solid #333;
+}
+
+/* Tabs laterales (iconos) */
+.leaflet-sidebar-tabs {
+  background-color: #121212;
+  border-right: 1px solid #333;
+}
+
+.leaflet-sidebar-tabs > ul > li {
+  color: #999;
+  transition: background 0.3s;
+}
+
+.leaflet-sidebar-tabs > ul > li:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.leaflet-sidebar-tabs > ul > li.active {
+  background-color: #333;
+  color: #4fc3f7;
+}
+
+/* Contenido del panel */
+.leaflet-sidebar-content {
+  padding: 20px;
+  font-size: 15px;
+  line-height: 1.6;
+  background-color: #1a1a1a;
+}
+
+/* Títulos */
+.leaflet-sidebar-content h1,
+.leaflet-sidebar-content h2,
+.leaflet-sidebar-content h3 {
+  /* color: #4fc3f7; */
+  color: white;
+  margin-top: 0;
+}
+
+/* Botón de cerrar */
+.leaflet-sidebar-close {
+  background-color: #2a2a2a;
+  top: unset;
+  color: #ccc;
+  border: none;
+  font-size: 20px;
+  transition: background 0.2s;
+}
+
+.leaflet-sidebar-close:hover {
+  background-color: #4fc3f7;
+  color: #000;
+}
+
+

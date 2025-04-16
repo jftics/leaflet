@@ -1,0 +1,29 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Aeropuerto Internacional El Alto",
+          "tipo": "internacional",
+          "IATA": "LPB"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-68.175, -16.5]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Aeródromo de Mallasa",
+          "tipo": "nacional",
+          "IATA": null
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-68.095, -16.585]
+        }
+      }
+    ]
+  }

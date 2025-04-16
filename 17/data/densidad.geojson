@@ -1,0 +1,59 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Centro",
+          "densidad": 12500,
+          "clasificacion": "muy alta"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-68.13, -16.49],
+            [-68.12, -16.49],
+            [-68.12, -16.5],
+            [-68.13, -16.5],
+            [-68.13, -16.49]
+          ]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Sopocachi",
+          "densidad": 9800,
+          "clasificacion": "alta"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-68.135, -16.51],
+            [-68.125, -16.51],
+            [-68.125, -16.52],
+            [-68.135, -16.52],
+            [-68.135, -16.51]
+          ]]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Zona Sur",
+          "densidad": 5200,
+          "clasificacion": "media"
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [[
+            [-68.1, -16.54],
+            [-68.09, -16.54],
+            [-68.09, -16.55],
+            [-68.1, -16.55],
+            [-68.1, -16.54]
+          ]]
+        }
+      }
+    ]
+  }
