@@ -1,0 +1,53 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Autopista La Paz - El Alto",
+          "tipo": "principal",
+          "longitud": 12.5
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-68.119293, -16.489689],
+            [-68.145385, -16.475],
+            [-68.175, -16.5]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ruta a Oruro",
+          "tipo": "principal",
+          "longitud": 45.2
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-68.175, -16.5],
+            [-68.2, -16.52],
+            [-68.25, -16.55]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Ruta al Lago Titicaca",
+          "tipo": "secundaria",
+          "longitud": 28.7
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-68.119293, -16.489689],
+            [-68.1, -16.45],
+            [-68.05, -16.4]
+          ]
+        }
+      }
+    ]
+  }

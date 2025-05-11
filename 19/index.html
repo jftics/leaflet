@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proeyecto final de LeafLet</title>
+
+    <link rel="stylesheet" href="lib/leaflet-1.9.4/leaflet.css">
+    <!-- CSS del plugin -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-groupedlayercontrol@0.6.1/dist/leaflet.groupedlayercontrol.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <h1>DashBoard Geográfico de La Paz</h1>
+        <div class="time-control">
+            <span id="current-date">25 de abril de 2025</span>
+        </div>
+    </header>
+
+    <div class="dashboard-container">
+        <!--Panel de navegacion lateral-->
+        <div class="sidebar">
+            <div class="logo">
+                <h1>La Paz Geográfico</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active"><a href="#" data-section="overview">Vista General</a></li>
+                    <li class="active"><a href="#" data-section="districts">Distritos</a></li>
+                    <li class="active"><a href="#" data-section="transport">Transporte</a></li>
+                    <li class="active"><a href="#" data-section="tourism">Turismo</a></li>
+                    <li class="active"><a href="#" data-section="analysis">Análisis</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Panel principal -->
+         <main class="main-content">
+            <!-- Sección de mapa -->
+             <seccion class="map-container">
+                <div id="map"></div>
+             </seccion>
+
+             <!-- Sección de widgets/gráficos -->
+             <section class="widgets-container">
+                <div class="widget" id="population-chart">
+                    <h3>Población por distrito</h3>
+                    <canvas id="population-canvas"></canvas>
+                </div>
+                <div class="widget" id="elevation-chart">
+                    <h3>Perfil de elevación</h3>
+                    <canvas id="elevation-canvas"></canvas>
+                </div>
+            </section>
+         </main>
+
+    </div>
+
+    <script src="lib/leaflet-1.9.4/leaflet-src.js"></script>
+    <!-- JS del plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-groupedlayercontrol@0.6.1/dist/leaflet.groupedlayercontrol.min.js"></script>
+    
+    <!-- Chart.js para gráficos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+
+    <!-- Turf.js para análisis espacial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Turf.js/6.5.0/turf.min.js'></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.heat/0.2.0/leaflet-heat.js"></script>
+    
+    <script src="js/chart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

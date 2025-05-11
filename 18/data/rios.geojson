@@ -1,0 +1,39 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Río Choqueyapu",
+          "longitud": 42.5,
+          "caudal": "medio"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-68.05, -16.45],
+            [-68.08, -16.47],
+            [-68.12, -16.49],
+            [-68.15, -16.52]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "nombre": "Río La Paz",
+          "longitud": 76.8,
+          "caudal": "alto"
+        },
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-68.02, -16.4],
+            [-68.05, -16.45],
+            [-68.08, -16.5],
+            [-68.12, -16.55]
+          ]
+        }
+      }
+    ]
+  }
